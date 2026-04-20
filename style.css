@@ -1,70 +1,14 @@
-/* GENERAL */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5;
-}
-
-/* NAVBAR */
-nav {
-    background-color: #333;
-    padding: 10px;
-    text-align: center;
-}
-
-nav a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-nav a:hover {
-    color: yellow;
-}
-
-/* CENTER TEXT */
-.center {
-    text-align: center;
-}
-
-/* CONTAINER */
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    width: 300px;
-    margin: 20px auto;
-}
-
-/* BOXES */
-.box {
-    width: 80px;
-    height: 80px;
-    background-color: skyblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px gray;
-    transition: 0.3s;
-}
-
-/* DIFFERENT COLORS */
+body { font-family: Arial; background-color: #f5f5f5; margin: 0; }
+nav { background-color: #333; padding: 10px; text-align: center; }
+nav a { color: white; margin: 0 10px; text-decoration: none; }
+.center { text-align: center; }
+.container { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; width: 300px; margin: 20px auto; }
+.box { width: 80px; height: 80px; display: flex; justify-content: center; align-items: center; border-radius: 10px; box-shadow: 2px 2px 5px gray; transition: 0.3s; color: white; font-weight: bold; }
 .box:nth-child(1) { background: blue; }
 .box:nth-child(2) { background: pink; }
-.box:nth-child(3) { background: yellow; }
+.box:nth-child(3) { background: yellow; color: black; }
 .box:nth-child(4) { background: green; }
-.box:nth-child(5) { background: white; }
+.box:nth-child(5) { background: gray; }
 .box:nth-child(6) { background: violet; }
-
-/* HOVER EFFECT */
-.box:hover {
-    background-color: black;
-    color: white;
-    transform: scale(1.1);
-}
+.box:hover { background-color: black; color: white; transform: scale(1.1); }
+/* Commit 2: Added navigation and CSS */
